@@ -63,16 +63,71 @@ button:focus-visible {
   a:hover {
     color: #747bff;
   }
-  button {
-    background-color: #f9f9f9;
-  }
+
+
+
 }
+
 
 .styleCard{
 
-  background-color: #65f1c0;
-  height: 160px;
-  width: 400px;
-  text-align: center;
-  padding-top: 20%;  
+ align-items: center;
+  font-size: 1.5rem;
+  color: #213547;
+  font-weight: 500;
+  min-height: 250px;
+  display: flex;;
+  justify-content: center;
+  margin: 0%;
+  transition: .15s;
+  flex-direction: column;
+  box-shadow: 0 0 5px 2px #0000004d;
+
 }
+
+
+
+
+
+
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.imgQuestions{
+
+width: 100px;
+height: 100px;
+
+}
+
